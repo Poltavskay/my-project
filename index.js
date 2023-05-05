@@ -77,10 +77,6 @@ locationButton.addEventListener("click", getCurrentPosition);
 
 
 
-
-
-
-
 function CelusToFarenheit(event) {
   event.preventDefault();
   let temperature = document.querySelector("#temp");
